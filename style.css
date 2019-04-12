@@ -1,0 +1,175 @@
+body{
+	width: 100%;
+}
+
+.section{
+	width: 90%;
+}
+
+.log-section{
+	padding-bottom: 180px;
+}
+/*menu*/
+.nav-bar{
+	background: blue;
+	overflow: hidden;
+	height: 63px;
+}
+
+.nav-bar a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 30px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.nav-bar ul{
+	padding: 8px 0px;
+	list-style: none;
+}
+
+.nav-bar a:hover{
+	background: white;
+	color: blue;
+}
+
+.a-icon{
+	font-size: 40px !important;
+	/*margin: 10px;*/
+	color: white;
+	padding: 0px !important;
+	margin-left: 10px;
+}
+
+.a-icon:hover{
+	background: none !important; 
+}
+
+.sd-nav{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #0000B8;
+	opacity: 0.7;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+.sd-nav a{
+	padding: 10px 10px 10px 30px;
+	text-decoration: none;
+	font-size: 22px;
+	display: block;
+	color: white;
+	transition: 0.5s;
+
+}
+
+.sd-nav span{
+	text-align: center;
+	padding-left: 30px;
+	text-decoration: none;
+	font-size: 22px;
+	display: block;
+	color: white;
+	transition: 0.5s;
+}
+
+.a-icon{
+	font-size: 40px;
+}
+
+.sd-nav a:hover{
+	color: gray;
+}
+
+.close{
+	position: absolute;
+	top: 0;
+	right: 22px;
+	font-size: 30px;
+	margin-left: 50px;
+}
+#main{
+	transition: margin-left 0.5s;
+	padding: 20px;
+	overflow: hidden;
+	width: 100%;   
+}
+
+.dates li{
+	float: right;
+	color: white;
+}
+
+/*sign up form*/
+.form-control{
+	margin: 10px 0 !important;
+}
+
+.center-div{
+	color: black !important;
+	padding-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 30px;
+	margin-top: 0px !important;
+}
+
+/*side-bar*/
+.sidebar{
+	height: 498px;
+	padding: 0px !important;
+}
+.sd-item{
+	padding: 20px 0px;
+	list-style: none;
+	border-bottom: 1px white solid;
+	/*margin: 0px !important;*/
+}
+
+.sd-link{
+	text-decoration: none;
+	/*margin: 0px !important;*/
+	padding: 0px;
+}
+
+.sd-bar{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+/*Token url*/
+.url{
+	overflow: hidden;
+}
+
+@media (max-width : 768px){
+	.sidebar {
+		display: none;
+	}
+
+	.ul-nav{
+		display: none;
+	}
+}
+
+/*@media (min-width : 768px) and (max-width : 1024px) and (orientation : landscape){
+	section{
+		width: 116%;
+	}
+
+}*/
+
+/*@media (min-width : 768px) and (max-width : 1024px){
+	.sd-bar{
+		display: none;
+	}
+}*/
