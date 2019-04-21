@@ -39,6 +39,7 @@ function validate(){
 		document.getElementById('submit').disabled= false;
 	}else{
 		document.getElementById('submit').disabled= true;
+		alert("Fill all fields. Reload page to enable register");
 	}
 
 }

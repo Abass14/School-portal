@@ -151,7 +151,34 @@ body{
 	overflow: hidden;
 }
 
+.staff-table{
+	font-size: 12px !important;
+	border: white solid;
+}
+
+.staff-table button{
+	border: none;
+	padding: 7px;
+}
+
 @media (max-width : 768px){
+	.sidebar {
+		display: none;
+	}
+
+	.ul-nav{
+		display: none;
+	}
+
+	.staff-table{
+		display: none;
+	}
+}
+
+@media (max-width : 1024px){
+	.staff-table{
+		display: none;
+	}
 	.sidebar {
 		display: none;
 	}
@@ -161,15 +188,6 @@ body{
 	}
 }
 
-/*@media (min-width : 768px) and (max-width : 1024px) and (orientation : landscape){
-	section{
-		width: 116%;
-	}
 
-}*/
 
-/*@media (min-width : 768px) and (max-width : 1024px){
-	.sd-bar{
-		display: none;
-	}
-}*/
+

@@ -30,6 +30,8 @@
 							<li>Students Register on the Portal</li>
 							<li>Students LOGIN on the Portal</li>
 							<li>Students Pay the University Fees</li>
+							<li>Register Courses/subjects</li>
+							<li>Register Course and subjects</li>
 						</ul>
 					</div>
 				</div>

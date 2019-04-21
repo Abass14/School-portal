@@ -21,7 +21,7 @@
 		header('Location:sign-up.php');
 	}else{
 		// $hashed = hash('sha512', $User_Password);
-		$reg = "INSERT INTO `register`(`name`, `email`, `password`, `phone`, `token`) VALUES ('$name','$email','$password','$phone','')";
+		$reg = "INSERT INTO `register`(`authority`, `name`, `email`, `password`, `phone`, `token`) VALUES ('student','$name','$email','$password','$phone','')";
 		mysqli_query($connect, $reg);
 		echo "Registration ";
 		header('Location:login.php');

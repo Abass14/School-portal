@@ -23,17 +23,6 @@
 					<div class="border-bottom row px-3">
 						<h2 class="text-primary">HOME</h2>
 					</div>
-					<div class="row px-3">
-						<h4 class="pt-5 text-danger">RETURNING STUDENTS INSTRUCTIONS FOR 2018/2019 SESSION</h4>
-						
-					</div>
-					<div class="row pt-3 px-3">
-						<ul>
-							<li>Students Register on the Portal</li>
-							<li>Students LOGIN on the Portal</li>
-							<li>Students Pay the University Fees</li>
-						</ul>
-					</div>
 				</div>
 			</div>
 		</div>
