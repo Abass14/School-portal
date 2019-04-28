@@ -50,7 +50,7 @@
 						<form method="POST" action="admin-staff-mgt-process" class="form-group">
 							<div class="row move-center">
 								<div class="col-md-3">
-									<label>Full Name:</label>
+									<label class="py-3">Full Name:</label>
 								</div>
 								<div class="col-md-9">
 									<input type="text" name="name" id="name" class="form-control">
@@ -58,7 +58,7 @@
 							</div>
 							<div class="row move-center">
 								<div class="col-md-3">
-									<label>Email:</label>
+									<label class="py-3">Email:</label>
 								</div>
 								<div class="col-md-9">
 									<input type="email" name="email" id="email" class="form-control">
@@ -66,7 +66,7 @@
 							</div>
 							<div class="row move-center">
 								<div class="col-md-3">
-									<label>Phone:</label>
+									<label class="py-3">Phone:</label>
 								</div>
 								<div class="col-md-9">
 									<input type="text" name="phone" id="phone" class="form-control">
@@ -74,7 +74,7 @@
 							</div>
 							<div class="row move-center">
 								<div class="col-md-3">
-									<label>Department:</label>
+									<label class="py-3">Department:</label>
 								</div>
 								<div class="col-md-9">
 									<input type="text" name="department" id="department" class="form-control">

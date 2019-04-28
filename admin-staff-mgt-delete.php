@@ -9,7 +9,7 @@
 
 	if($result){
 		$delete = "DELETE FROM `staff` WHERE id = '$id'";
-		mysqli_query($connect, $delete);
+		$r = mysqli_query($connect, $delete);
 		header('location:admin-staff-mgt.php');
 	}
 

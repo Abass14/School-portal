@@ -27,8 +27,7 @@
 			}
 		$sidebar = '<div id="sd-bar" class="sd-bar">
 						<ul class="ul-bar">
-							<a class="text-white sd-link" href="home.php"><li onmouseover="changeColor()" onmouseleave="reverseColor1()" id="sd-link1" id="sd-link" class="sd-item">Home</li></a>
-							<a class="text-white sd-link" href="sign-up.php"><li onmouseover="changeColor2()" onmouseleave="reverseColor2()" id="sd-link2" id="sd-link" class="sd-item">REGISTRATION</li></a>';
+							<a class="text-white sd-link" href="home.php"><li onmouseover="changeColor()" onmouseleave="reverseColor1()" id="sd-link1" id="sd-link" class="sd-item">Home</li></a>';
 		$sidebar .= $menuPlus;
 
 		$sidebar .= '	

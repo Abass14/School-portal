@@ -17,7 +17,7 @@
  		$url = "http://localhost/School-Portal-project/reset-password.php?token=$token&email=$email";
  		$subject = "Reset Password";
 		$message = "Click link to reset Password: $url";
-		$From = "Adisa Abass\r\n";
+		$From = "School\r\n";
 
 		// echo $url;
 		header("Location:forgot-password.php");
