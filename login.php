@@ -2,6 +2,7 @@
 	require_once "templates/head.php";
 	require_once "connection.php";
 	$loginfailed = "";
+	$registerSuccess = "";
 	if(isset($_SESSION['loginfailed']) && $_SESSION['loginfailed']){
 		unset($_SESSION['loginfailed']);
 		$loginfailed = "
@@ -17,6 +18,15 @@
 		$passwordChange = "<div class='bg-success text-white py-3 px-2'>
 								Password changed successfully
 							</div>";
+	}
+
+	if (isset($_SESSION['signupSuccess']) && $_SESSION['signupSuccess']) {
+		unset($_SESSION['signupSuccess']);
+		$registerSuccess = "
+			<div class='alert alert-success text-center row'>
+				Registration successful
+			</div><br/>
+		";
 	}
 ?>
 
@@ -36,6 +46,7 @@
 						<?php  
 							echo $loginfailed;
 							echo $passwordChange;
+							echo $registerSuccess;
 						?>
 						<form method="POST" action="login-process.php" class="form-group">
 							<div class="row move-center">

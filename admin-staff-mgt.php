@@ -77,7 +77,11 @@
 									<label class="py-3">Department:</label>
 								</div>
 								<div class="col-md-9">
-									<input type="text" name="department" id="department" class="form-control">
+									<select class="form-control" name="department">
+										<option>Select</option>
+										<option value="mechanical">Mechanical Engineering</option>
+										<option value="electrical">Electrical Engineering</option>
+									</select>
 								</div>
 							</div>
 							<div class="row move-center">

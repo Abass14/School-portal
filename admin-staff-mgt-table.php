@@ -1,7 +1,7 @@
 <?php
 	require_once "connection.php";
 
-	$query = "SELECT * from staff";
+	$query = "SELECT * from register where authority = 'staff'";
 	$result = mysqli_query($connect, $query);
 	// var_dump($result);
 	if($result){
@@ -12,7 +12,7 @@
 						<th>EMAIL</th>
 						<th>PHONE</th>
 						<th>DEPARTMENT</th>
-						<th>Delete</th>
+						<th>DELETE</th>
 					</tr>
 					";
 				while ($row = mysqli_fetch_assoc($result)) {

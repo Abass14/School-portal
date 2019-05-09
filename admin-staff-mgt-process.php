@@ -11,7 +11,7 @@
 	$str = "absghtGSHT5678HVH";
 	$str = str_shuffle($str);
 	$password = sha1($str).$salt;
-	$query = "SELECT * FROM `staff` where email = '$email'";
+	$query = "SELECT * FROM `register` where email = '$email'";
 	$result = mysqli_query($connect, $query);
 
 	$num = mysqli_num_rows($result);
@@ -36,7 +36,7 @@
 			$message .= "
 							<div style = 'background-color: white; color: blue;'>
 								<ul>
-									<li>Login number: {$row['id']}</li>
+									<li>Login ID number: {$row['id']}</li>
 								</ul>
 								<p>Reset your password by clicking forgot password</p>
 							</div>
@@ -45,27 +45,13 @@
 		}
 		mail($email, $subject, $message, $from);
 		header('location:admin-staff-mgt.php');
-		$insert = "INSERT INTO `staff`(`name`, `email`, `phone`, `department`) VALUES ('$name','$email','$phone','$department')";
+		$insert = "INSERT INTO `register`(`authority`, `name`, `email`, `department`, `password`, `phone`, `token`) VALUES ('staff','$name','$email','$department','$password','$phone','')";
 		mysqli_query($connect, $insert);
 		header('location:admin-staff-mgt.php');
 		$_SESSION['success'] = true;
 		echo "Working";
 	}
 
-	$Q = "SELECT * FROM `register` where email = '$email'";
-	$R = mysqli_query($connect, $Q);
-
-	$n = mysqli_num_rows($R);
-	if($n){
-		echo "Not working";
-		// $_SESSION['error-msg'] = true;
-		header('location:admin-staff-mgt.php');
-	}else{
-		$i = "INSERT INTO `register`(`authority`, `name`, `email`, `password`, `phone`, `token`) VALUES ('staff','$name','$email','$password','$phone','')";
-		mysqli_query($connect, $i);
-		header('location:admin-staff-mgt.php');
-		// $_SESSION['success'] = true;
-		echo "Working";
-	}
+	
 
 ?>
