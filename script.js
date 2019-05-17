@@ -45,57 +45,57 @@ function validate(){
 }
 
 
-// SIDEBAR
-function changeColor(){
-	document.getElementById('sd-link1').style.background = "white";
-	document.getElementById('sd-link1').style.color = "blue";
-}
-function changeColor2(){
-	document.getElementById('sd-link2').style.background = "white";
-	document.getElementById('sd-link2').style.color = "blue";
-}
+// // SIDEBAR
+// function changeColor(){
+// 	document.getElementById('sd-link1').style.background = "white";
+// 	document.getElementById('sd-link1').style.color = "blue";
+// }
+// function changeColor2(){
+// 	document.getElementById('sd-link2').style.background = "white";
+// 	document.getElementById('sd-link2').style.color = "blue";
+// }
 
-function changeColor3(){
-	document.getElementById('sd-link3').style.background = "white";
-	document.getElementById('sd-link3').style.color = "blue";
-}
-function changeColor4(){
-	document.getElementById('sd-link4').style.background = "white";
-	document.getElementById('sd-link4').style.color = "blue";
-}
+// function changeColor3(){
+// 	document.getElementById('sd-link3').style.background = "white";
+// 	document.getElementById('sd-link3').style.color = "blue";
+// }
+// function changeColor4(){
+// 	document.getElementById('sd-link4').style.background = "white";
+// 	document.getElementById('sd-link4').style.color = "blue";
+// }
 
-function changeColor5(){
-	document.getElementById('sd-link5').style.background = "white";
-	document.getElementById('sd-link5').style.color = "blue";
-}
-function changeColor6(){
-	document.getElementById('sd-link6').style.background = "white";
-	document.getElementById('sd-link6').style.color = "blue";
-}
-function reverseColor1(){
-	document.getElementById('sd-link1').style.background = "#007BFF";
-	document.getElementById('sd-link1').style.color = "white";
-}
-function reverseColor2(){
-	document.getElementById('sd-link2').style.background = "#007BFF";
-	document.getElementById('sd-link2').style.color = "white";
-}
-function reverseColor3(){
-	document.getElementById('sd-link3').style.background = "#007BFF";
-	document.getElementById('sd-link3').style.color = "white";
-}
-function reverseColor4(){
-	document.getElementById('sd-link4').style.background = "#007BFF";
-	document.getElementById('sd-link4').style.color = "white";
-}
-function reverseColor5(){
-	document.getElementById('sd-link5').style.background = "#007BFF";
-	document.getElementById('sd-link5').style.color = "white";
-}
-function reverseColor6(){
-	document.getElementById('sd-link6').style.background = "#007BFF";
-	document.getElementById('sd-link6').style.color = "white";
-}
+// function changeColor5(){
+// 	document.getElementById('sd-link5').style.background = "white";
+// 	document.getElementById('sd-link5').style.color = "blue";
+// }
+// function changeColor6(){
+// 	document.getElementById('sd-link6').style.background = "white";
+// 	document.getElementById('sd-link6').style.color = "blue";
+// }
+// function reverseColor1(){
+// 	document.getElementById('sd-link1').style.background = "#007BFF";
+// 	document.getElementById('sd-link1').style.color = "white";
+// }
+// function reverseColor2(){
+// 	document.getElementById('sd-link2').style.background = "#007BFF";
+// 	document.getElementById('sd-link2').style.color = "white";
+// }
+// function reverseColor3(){
+// 	document.getElementById('sd-link3').style.background = "#007BFF";
+// 	document.getElementById('sd-link3').style.color = "white";
+// }
+// function reverseColor4(){
+// 	document.getElementById('sd-link4').style.background = "#007BFF";
+// 	document.getElementById('sd-link4').style.color = "white";
+// }
+// function reverseColor5(){
+// 	document.getElementById('sd-link5').style.background = "#007BFF";
+// 	document.getElementById('sd-link5').style.color = "white";
+// }
+// function reverseColor6(){
+// 	document.getElementById('sd-link6').style.background = "#007BFF";
+// 	document.getElementById('sd-link6').style.color = "white";
+// }
 
 
-changeColor();
+// changeColor();
