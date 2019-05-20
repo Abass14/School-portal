@@ -13,9 +13,10 @@
 							<li><a href="admin-department.php" class="link-menu">Department</a></li>
 							<li><a href="admin-student-result.php" class="link-menu">Student Result</a></li>';
 			}elseif ($row[0]['authority'] == 'staff') {
-				$menuPlus = '<li><a href="index.php" class="link-menu">Department</a></li>
+				$menuPlus = '<li><a href="staff-department.php" class="link-menu">Department</a></li>
 							<li><a href="sign-up.php" class="link-menu">Student Result</a></li>
-							<li><a href="login.php" class="link-menu">Post Result</a></li>';
+							<li><a href="login.php" class="link-menu">Post Result</a></li>
+							<li><a href="staff-post-exam.php" class="link-menu">Post Exam</a></li>';
 			}elseif ($row[0]['authority'] == 'student') {
 				$menuPlus = '<li><a href="index.php" class="link-menu">Register Course</a></li>
 							<li><a href="login.php" class="link-menu">Select Exam</a></li>

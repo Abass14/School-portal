@@ -50,6 +50,7 @@
 		header('location:admin-staff-mgt.php');
 		$_SESSION['success'] = true;
 		echo "Working";
+
 	}
 
 	
