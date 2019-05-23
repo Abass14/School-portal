@@ -13,12 +13,13 @@
 					<a class="text-white sd-link" href="admin-student-result.php"><li id="sd-link1" id="sd-link" class="sd-item">STUDENT RESULT</li></a>';
 				}elseif ($row[0]['authority'] == 'staff') {
 					$menuPlus = '<a class="text-white sd-link" href="staff-department.php"><li  id="sd-link4" id="sd-link" class="sd-item">DEPARTMENT</li></a>
+						<a class="text-white sd-link" href="staff-post-course.php"><li  id="sd-link4" id="sd-link" class="sd-item">POST COURSE</li></a>
 						<a class="text-white sd-link" href=""><li id="sd-link5" id="sd-link" class="sd-item">STUDENT RESULT</li></a>
 						<a class="text-white sd-link" href=""><li  id="sd-link4" id="sd-link" class="sd-item">POST RESULT</li></a>
 						<a class="text-white sd-link" href="staff-post-exam.php"><li  id="sd-link4" id="sd-link" class="sd-item">POST QUESTION</li></a>';
 				}elseif ($row[0]['authority'] == 'student') {
 					$menuPlus = '
-						<a class="text-white sd-link" href="student-register.php"><li  id="sd-link4" id="sd-link" class="sd-item">RESISTER COURSE</li></a>
+						<a class="text-white sd-link" href="student-register-course.php"><li  id="sd-link4" id="sd-link" class="sd-item">RESISTER COURSE</li></a>
 						<a class="text-white sd-link" href="student-exam.php"><li id="sd-link5" id="sd-link" class="sd-item">SELECT EXAM</li></a>
 						<a class="text-white sd-link" href="student-result"><li  id="sd-link4" id="sd-link" class="sd-item">CHECK RESULT</li></a>';
 

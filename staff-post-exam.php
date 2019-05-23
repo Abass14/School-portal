@@ -43,7 +43,7 @@
 	<section class="section">
 		<div class="row">
 			
-			<div class="col-md-2 bg-primary sidebar">
+			<div class="col-xl-2 col-md-12 col-sm-12 bg-primary sidebar">
 				<div class="row">
 					<div class="col pl-0">
 						<aside>
@@ -52,7 +52,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-10 pt-4">
+			<div class="col-xl-10 px-5 col-md-12 col-sm-12 pt-4">
 				<div class="container">
 					<div class="border-bottom row px-3">
 						<h2 class="text-primary">POST EXAM QUESTIONS</h2>
