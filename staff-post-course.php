@@ -9,6 +9,14 @@
 							Course successfully posted!!!
 						</div>";
 	}
+
+	$updateSuccess = "";
+	if (isset($_SESSION['updateSuccess']) && $_SESSION['updateSuccess']) {
+		unset($_SESSION['updateSuccess']);
+		$updateSuccess = "<div class='alert bg-success text-white py-3 px-5'>
+							Course updated successfully!!!
+						</div>";
+	}
 ?>
 <body class="bg-light">
 	<?php require_once "templates/menu.php"; ?>
@@ -33,7 +41,10 @@
 				</div>
 				<div class="row">
 					<div class="col-xl-6 col-md-12 col-sm-12 py-5 pl-5">
-						<?php echo $courseSuccess; ?>
+						<?php 
+							echo $courseSuccess; 
+							echo $updateSuccess;
+						?>
 						<form action="staff-post-course-process.php" method="POST">
 							<div class="row move-center">
 								<div class="col-md-3 col-sm-12">

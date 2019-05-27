@@ -5,7 +5,7 @@
 	$result = mysqli_query($connect, $query);
 	// var_dump($result);
 	if($result){
-		$table = "<table border = '1' class = 'table text-white bg-primary staff-table'>
+		$table = "<table border = '1' class = 'table table-responsive text-white bg-primary staff-table'>
 					<tr>
 						<th>ID</th>
 						<th>NAME</th>

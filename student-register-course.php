@@ -26,7 +26,7 @@
 				</div>
 				<div class="row">
 					<div class="col-xl-6 col-md-12 col-sm-12 py-5 pl-5">
-						<?php require_once 'staff-post-course-table.php'; ?>
+						<?php require_once 'student-select-course.php'; ?>
 					</div>
 					<div class="col-xl-6 col-md-12 col-sm-12 py-5">
 
