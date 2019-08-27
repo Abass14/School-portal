@@ -22,7 +22,7 @@
 						<div class='col-md-9 col-sm-12'>
 							<select class='form-control' name='dept'>
 								<option value='mechanical'>Mechanical</option>
-								<option value='electrica''>Electrical</option>
+								<option value='electrical''>Electrical</option>
 							</select>
 						</div>
 					</div>
@@ -42,7 +42,7 @@
 							<input type='number' name='unit' class='form-control' placeholder='Enter Course Unit'>
 						</div>
 					</div>
-						<div class='row move-center'>
+					<div class='row move-center'>
 						<div class='ml-auto mr-auto'>
 							<input type='submit' name='submit' class='form-control btn btn-primary' value='Post Course'>
 						</div>

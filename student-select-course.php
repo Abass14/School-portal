@@ -19,9 +19,10 @@
 							<th>Select</th>
 						</tr>
 						";
-			while ($rows = mysqli_fetch_assoc($resultMech)) {
-				$form = "<form method='POST' action='student-select-course.php' class='form-group'>
+			$form = "<form method='POST' action='student-select-course.php' class='form-group'>
 						<input type='checkbox' name='studentSelect'>";
+			while ($rows = mysqli_fetch_assoc($resultMech)) {
+				
 				$table .= "<tr>
 								<td>{$rows['course']}</td>
 								<td>{$rows['unit']}</td>

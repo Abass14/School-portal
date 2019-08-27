@@ -44,6 +44,8 @@
 							<th>ID</th>
 							<th>Course</th>
 							<th>Unit</th>
+							<th>Delete</th>
+							<th>Edit</th>
 						</tr>
 						";
 			while ($rows = mysqli_fetch_assoc($resultElect)) {
